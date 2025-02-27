@@ -1,0 +1,41 @@
+# TODO: Aplicação de Tradução de Linguagem Gestual  
+**Objetivo**: Traduzir gestos para texto e voz.  
+**Público-alvo**: Surdos e ouvintes.  
+**Língua de Sinais**: LGP (Linguagem Gestual Portuguesa).  
+
+---
+
+## **1. Definição do Escopo**  
+- [ ] Definir objetivo (texto + voz).  
+- [ ] Escolher público-alvo (ambos).  
+- [ ] Selecionar língua de sinais (LGP).  
+
+---
+
+## **2. Tecnologias Necessárias**  
+### **Hardware**  
+- [ ] Adquirir câmera (webcam/smartphone).  
+- [ ] Opcional: Sensor Leap Motion/Kinect (para fase avançada).  
+
+### **Software**  
+- [ ] Instalar OpenCV (`pip install opencv-python`).  
+- [ ] Configurar MediaPipe (`pip install mediapipe`).  
+- [ ] Escolher framework de ML (TensorFlow/PyTorch).  
+- [ ] Implementar síntese de voz (gTTS/Pyttsx3).  
+- [ ] Definir interface gráfica (Tkinter/Flutter/React.js).  
+
+---
+
+## **3. Passos Técnicos**  
+### **A. Captura de Gestos**  
+- [ ] Criar script de captura de vídeo com OpenCV:  
+  ```python
+  import cv2
+  cap = cv2.VideoCapture(0)
+  while True:
+      ret, frame = cap.read()
+      cv2.imshow('Camera', frame)
+      if cv2.waitKey(1) & 0xFF == ord('q'):
+          break
+  cap.release()
+  cv2.destroyAllWindows()
