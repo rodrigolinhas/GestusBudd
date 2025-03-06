@@ -3,13 +3,13 @@
 ###
 
 <p> English version below</p>
-<h3 align="left"> Este projeto tem o intuito de melhorar os meus conhecimentos em IA</h3>
+<h3 align="left"> Este projeto tem o intuito de melhorar os meus conhecimentos em IA juntamente com a linguagem em Python</h3>
 
 ###
 
 ###
 
-<h3 align="left"> This project  has the objective to enhance my kownlege on AI </h3>
+<h3 align="left"> This project has the objective to enhance my kownlege on AI and Python</h3>
 
 ###
 
